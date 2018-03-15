@@ -14,7 +14,7 @@ int zeroSmaller(int &x, int &y)
 int main()
 {
   int a,b;
-  std::cout << "Enter the value of A and B:" << '\n';
+  std::cout << "Enter the value of A and B:\n";
   std::cin >> a>>b;
   zeroSmaller(a,b);
 return 0;
