@@ -25,6 +25,3 @@ Three ways to pass arguments
   3.Pass by reference
 
 .
-
-
-rajputmihir29@gmail.com
