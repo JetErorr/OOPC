@@ -5,7 +5,7 @@ int refswap(int &a,int &b)
 temp=a;
 a=b;
 b=temp;
-std::cout << "After (Call by Reference)Swap:X="<<a<<"and Y="<<b<<'\n';
+std::cout << "After (Call by Reference)Swap:X= "<<a<<" and Y="<<b<<'\n';
 return 0;
 }
 int valswap(int a,int b)
@@ -13,7 +13,7 @@ int valswap(int a,int b)
 temp=a;
 a=b;
 b=temp;
-std::cout << "After (Call by Value)Swap:X="<<a<<"and Y="<<b<<'\n';
+std::cout << "After (Call by Value)Swap:X= "<<a<<" and Y= "<<b<<'\n';
 return 0;
 }
 int main()
