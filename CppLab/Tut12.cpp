@@ -9,6 +9,7 @@ int main()
   std::cout<<"M^N" << '\n';
   std::cout<<"Enter the value of M and N" << '\n';
   std::cin>>m>>n;
+  dm=m;
   ans=power(m,n);
   std::cout<<"\nInt, Int "<<m<<"^"<<n<<" is= "<<ans<<'\n';
   ans=power(dm,n);
