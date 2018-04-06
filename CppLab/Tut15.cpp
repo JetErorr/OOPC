@@ -4,10 +4,8 @@ class bank_account
 {
   char name[20];
   int accnum;
-  // char type[10];
   int bal;
 public:
-  //bank_account(){accnum=0;bal=1000;}
   void setvalue()
   {
     std::cout << "Enter the name of the account holder.:" << '\n';
@@ -37,8 +35,6 @@ public:
   void display()
   {
     std::cout << "The Name of the account holder is:" << name<< '\n';
-    // std::cout << "The Account type is:"<< type<< '\n';
-    // std::cout << "The Account number is:"<< accnum<< '\n';
     std::cout << "The Account Balance is:" << bal<< '\n';
   }
 };
