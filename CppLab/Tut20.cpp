@@ -5,7 +5,7 @@ class string
     char *str;
 public:
     string()
-    {str = '\0';}
+    {str = 'NULL';}
 
     string(char *s)
     {strcpy(str,s);}

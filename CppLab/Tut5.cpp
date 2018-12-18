@@ -1,9 +1,10 @@
 //Reverse a string 3/1/'18
-#define n 10
+// #define n 10
 #include<stdio.h>
 #include<iostream>
 int main()
 {
+  int n = 10;
   // system("cls");
   // int n;
   // std::cout << "Enter the length of the string: " << '\n';
@@ -19,7 +20,7 @@ int main()
   for(i=0;i<n;i++)
   {
     if(a[n-1-i]=='NULL'){break;}
-    std::cout << a[n-1-i];
+    std::cout << a[n-i];
   }
   return 0;
 }
